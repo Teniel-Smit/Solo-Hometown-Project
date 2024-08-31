@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #9D181B
+lIGHT RED: #A65858 / 166,88,88
+YELLOW: #DDB756
+LIGHT YELLOW:#FCCE95 / 252,206,149
+Lightest Yellow: #FAEDDA
+DARK BLUE: #036DA9
+LIGHT BLUE #8CDBCC
+
+*/
+
+body {
+    text-align: center;
+    margin: 0px 0px;
+}
+
+#hero {
+    background-image: url("/images/Pier.jpg");
+    background-size: cover;
+    margin: 0px;
+    padding: 5px;
+    height: 200px;
+    display: block;
+    justify-content: center;
+}
+
+#NMB-logo {
+    height: 30px;
+    width: 30px;
+}
+
+h1 {
+    color: #9D181B; 
+    padding: 5px;
+}
+    
+h2 {
+    color: #9D181B;
+    padding: 15px;
+}
+#span-h1 {
+    background-color: RGBA(252,206,149,0.8)
+}
+
+#span-h2 {
+    background-color: RGBA(252,206,149,0.6)
+}
+
+.Welcome {
+    width: 120px;
+    height: 80px;
+    font-size: 15px;
+}
+.Welcome:hover {
+    border-radius: 50px;
+}
+#actv {
+    background-color: #E3CF84;
+    padding-top: 5px;
+    height: 240px;
+}
+h3 {
+    color: #9D181B;
+}
+#actv-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#addo {
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+}
+
+#addo-img {
+    width: 100px;
+    padding-left: 5px;
+}
+
+#sards {
+    display: flex;
+   flex-direction: column;
+    padding: 5px;  }
+
+#sards-img {
+    width: 100px; 
+}
+
+#Van-Stadens {
+    display: flex;
+    flex-direction: column; 
+    padding: 5px;
+}
+
+#van-stadens-img {
+    width: 100px; 
+}
+
+#guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FAEDDA;
+    padding: 5px; 
+}
+
+#guide-img {
+    width: 120px;
+    height: 100;
+    padding: 5px; 
+}
+
+#guide-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 200px;
+    height:150px;
+    padding: 5px; 
+}
+
+#h3-guide {
+    top: 150px;
+}
+
+p {
+    color: #9D181B;
+}
